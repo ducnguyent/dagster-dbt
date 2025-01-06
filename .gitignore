@@ -169,3 +169,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Example .gitignore file
+
+# Ignore node_modules for JavaScript/Node.js projects
+node_modules/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+.venv
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Folders
+dbt-dag/
